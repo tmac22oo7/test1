@@ -1,6 +1,6 @@
 pipeline {
    
-   enviornment {
+   environment {
       registryCred = tsanderson77-docker
    
    }
