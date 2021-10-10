@@ -1,11 +1,8 @@
 pipeline {
-   
+   agent any
    environment {
       registryCred = tsanderson77-docker
-   
    }
-   
-   agent any
  
     stages {
         stage ('Build') {
